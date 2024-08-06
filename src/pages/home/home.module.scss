@@ -1,0 +1,23 @@
+body{
+    position: relative;
+}
+
+.body__backgroundPopup{
+    width: 100%;
+    height: 100%;
+}
+
+.resset *{
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+    >*{
+        overflow: hidden;
+    }
+}

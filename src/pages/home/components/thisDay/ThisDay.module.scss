@@ -1,0 +1,45 @@
+@import '../../../../views/app/variables.scss';
+
+.this__day{
+    background: var(#{--section-background-default});
+    //background-color: #4F4F4F;
+    width: 360px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.55);
+}
+
+.this__dayTemp{
+    display: flex;
+    justify-content: space-between;
+
+    .dayTemp__temperature{
+        font-size: 96px;
+        color: var(#{--primary-text-default});
+    }
+
+    .dayTemp__dayNumber{
+        font-size: 40px;
+        color: var(#{--secondary-text-default});
+    }
+
+    .dayTemp__bottom{
+        display: flex;
+    }
+}
+
+.this__dayInfoSity{
+    p{
+        font-size: 25px;
+        color: var(#{--descriptlion-text-default});
+    }
+
+    p:first-child{
+        margin-top: 14px;
+    }
+
+    p:last-child{
+        margin-top: 7px;
+    }
+    
+}

@@ -1,0 +1,105 @@
+$body-background-light: linear-gradient(to top, rgb(107, 255, 107), rgb(198, 128, 255));
+$body-background-dark: rgba(13, 17, 23, 1);
+
+$body-text-light: rgb(234, 255, 0);
+$body-text-dark: white;
+
+$primary-text-light: rgb(80, 215, 236);
+$primary-text-dark: #4793FF;
+$secondary-text-light: rgb(132, 255, 0);
+$secondary-text-dark: #FFFFFF;
+$descriptlion-text-light: rgb(0, 255, 115);
+$descriptlion-text-dark: #939CB0;
+
+$svg-background-light: #ffff00aa;
+$svg-background-dark: #1264ff0d;
+
+$section-background-light: linear-gradient(to top, rgba(123, 79, 147, 0.668), rgba(239, 18, 255, 0.531));
+$section-background-dark: linear-gradient(to right, rgba(25, 56, 58, 0.14), rgba(0, 0, 0, 0.11));
+
+$cardItem-background-light: linear-gradient(to right, #8c7aff, #ab89b4);
+$cardItem-background-dark: linear-gradient(to right, #ff6b6b23, #c680ff1b);
+
+$cardItem-section-background-light: linear-gradient(to top, rgba(123, 79, 147, 0.672), rgba(239, 18, 255, 0.609));
+$cardItem-section-background-dark: #0f5d8445;
+
+$tapButton-background-light: linear-gradient(to right, rgba(144, 181, 221, 0.58), rgba(128, 160, 255, 0.11));;
+$tapButton-background-dark: linear-gradient(to right, rgba(144, 181, 221, 0.58), rgba(128, 160, 255, 0.11));
+$tapButton-background-active-light: #4A5DA6;
+$tapButton-background-active-dark: #4A5DA6;
+
+
+$popup-backgroundColor-light: #3D5959;
+$popup-backgroundColor-dark: #3D5959;
+
+$popup-container--backgroundColor: rgba(0, 0, 0, 0.5);
+
+:root {
+    //body background color
+    --body-background-light: #{$body-background-light};
+    --body-background-dark: #{$body-background-dark};
+    --body-background-default: var(#{--body-background-light});
+
+    //body background color
+    --body-text-light: #{$body-text-light};
+    --body-text-dark: #{$body-text-dark};
+    --body-text-default: var(#{--body-text-light});
+
+    //primary text color
+    --primary-text-light: #{$primary-text-light};
+    --primary-text-dark: #{$primary-text-dark};
+    --primary-text-default: var(#{--primary-text-light});
+
+    //secondary text color
+    --secondary-text-light: #{$secondary-text-light};
+    --secondary-text-dark: #{$secondary-text-dark};
+    --secondary-text-default: var(#{--secondary-text-light});
+
+    //descriptlion text color
+    --descriptlion-text-light: #{$descriptlion-text-light};
+    --descriptlion-text-dark: #{$descriptlion-text-dark};
+    --descriptlion-text-default: var(#{--descriptlion-text-light});
+
+    //svg background color
+    --svg-background-light: #{$svg-background-light};
+    --svg-background-dark: #{$svg-background-dark};
+    --svg-background-default: var(#{--svg-background-light});
+
+    //section background color
+    --section-background-light: #{$section-background-light};
+    --section-background-dark: #{$section-background-dark};
+    --section-background-default: var(#{--section-background-light});
+
+    //cardItem background color
+    --cardItem-background-light: #{$cardItem-background-light};
+    --cardItem-background-dark: #{$cardItem-background-dark};
+    --cardItem-background-default: var(#{--cardItem-background-light});
+
+    //cardItem section background color
+    --cardItem-section-background-light: #{$cardItem-section-background-light};
+    --cardItem-section-background-dark: #{$cardItem-section-background-dark};
+    --cardItem-section-background-default: var(#{--cardItem-section-background-light});
+
+    //tapButton background color
+    --tapButton-background-light: #{$tapButton-background-light};
+    --tapButton-background-dark: #{$tapButton-background-dark};
+    --tapButton-background-light-default: var(#{--tapButton-background-light});
+
+    //tapButton-background-active background color
+    --tapButton-background-active-light: #{$tapButton-background-active-light};
+    --tapButton-background-active-dark: var(#{$tapButton-background-active-dark});
+    --tapButton-background-active-default: var(#{--tapButton-background-active-light});
+
+
+
+
+
+    //popup background color
+    --popup-backgroundColor-light: #{$popup-backgroundColor-light};
+    --popup-backgroundColor-dark: #{$popup-backgroundColor-dark};
+    --popup-backgroundColor-default: var(#{--popup-backgroundColor-light});
+
+    //popup container background color
+    --popup-container--backgroundColor: #{$popup-container--backgroundColor};
+    --popup-container--backgroundColor-default: var(#{--popup-container--backgroundColor});
+}

@@ -1,0 +1,37 @@
+@import '../../../../views/app/variables.scss';
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+  
+  .cancel,
+  .tab {
+    border-radius: 5px;
+    padding: 9px 20px;
+    background: var(#{--cardItem-section-background-default});
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px -11px rgb(9, 6, 6);
+
+  }
+  
+  .cancel {
+    margin-right: 0;
+  }
+  
+  .tab {
+    &.active {
+      background: #0040ff4f;
+    }
+  }
+  
+  .tabs__wrapper {
+    display: flex;
+  }

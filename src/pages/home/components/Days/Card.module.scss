@@ -1,0 +1,45 @@
+
+
+.card{
+    width: 10.8%;
+    padding: 11px;
+    background: var(#{--cardItem-background-default});
+    border-radius: 10px;
+    min-width: 100px;
+}
+
+.day{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+
+.img{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.day__info{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(#{--descriptlion-text-default});
+}
+
+.temp__day{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+
+.temp__night{
+    font-size: 13px;
+    font-weight: 400;
+    color: var(#{--descriptlion-text-default});
+    padding-bottom: 3px;
+}
+
+.info{
+    font-size: 13px;
+    font-weight: 400;
+    color: var(#{--descriptlion-text-default});
+}

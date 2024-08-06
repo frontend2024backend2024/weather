@@ -1,0 +1,27 @@
+@import '../../../../views/app/variables.scss';
+
+.this__dayInfo{
+    background: var(#{--section-background-default});
+    width: 59.166666666666664%;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.55);
+}
+
+.dayInfo__PositionReleative{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 50px);
+    width: 100%;
+
+    img{
+        position: absolute;
+        right: -20px;
+        top: -45px;
+    }
+}
